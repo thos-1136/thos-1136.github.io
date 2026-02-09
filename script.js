@@ -14,27 +14,38 @@ function result() {
 }
 function mais() {
   md = "+";
+  contador = 6767;
 }
 function menos() {
   md =  "-";
+  contador = 6767;
 }
 function div() {
   md =  "/"
+  contador = 6767;
 }
 function mult() {
   md = "*"
+  contador = 6767;
 }
 function um() {
-  if (contador == 0){
+  if (contador == 0 && contador > 0){
     n1 = "1";
+    contador = contador + 1;
     document.getElementById("n1").innerText = n1;
   }
-  else {
+  else if (contador > 1 || contador > 0)
     newvalue = "1";
     n1 = n1 + newvalue;
     document.getElementById("n1").innerText = n1;
   }
+  else if (contador == 6767){
+    newvalue = "1";
+    n2 = n2 + newvalue;
+  }
 }
 function dois() {
-
+  newvalue = "2";
+  n1 = n1 + newvalue;
+  document.getElementById("n1").innerText = n1;
 }
