@@ -34,9 +34,10 @@ function um() {
     contador = contador + 1;
     document.getElementById("n1").innerText = n1;
   }
-  else if (contador > 1 || contador > 0)
+  else if (contador > 1)
     newvalue = "1";
     n1 = n1 + newvalue;
+    contador = contador + 1;
     document.getElementById("n1").innerText = n1;
   }
   else if (contador == 6767){
