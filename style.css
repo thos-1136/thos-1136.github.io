@@ -1,0 +1,19 @@
+body {
+  background-color: #111;
+  color: white;
+}
+
+input {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+}
+
+h1 {
+  color: #00e5ff;
+}
