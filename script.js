@@ -50,8 +50,13 @@ function um() {
   else if (contador == 6767) {
     newvalue = "1";
     n2 = n2 + newvalue;
+    contador = contador + 1;
     document.getElementById("n2").innerText = n2;
   }
+  else if (contador > 6767){
+    newvalue = "1";
+    n2 = n2 + newvalue;
+    document.getElementById("n2").innerText = n2;
 }
 function dois(){
 
