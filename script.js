@@ -1,7 +1,7 @@
 let contador = 0;
-let newvalue = 0;
-let n1 =0;
-let n2 =0;
+let newvalue = "";
+let n1 ="";
+let n2 ="";
 function result() {
   let result = 0;
 
@@ -29,12 +29,12 @@ function mult() {
   contador = 6767;
 }
 function um() {
-  if (contador == 0 && contador > 0){
+  if (contador == 0){
     n1 = "1";
     contador = contador + 1;
     document.getElementById("n1").innerText = n1;
   }
-  else if (contador > 1)
+  else if (contador > 1){
     newvalue = "1";
     n1 = n1 + newvalue;
     contador = contador + 1;
