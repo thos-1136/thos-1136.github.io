@@ -60,6 +60,7 @@ function um() {
     newvalue = "1";
     n2 = n2 + newvalue;
     document.getElementById("n2").innerText = n2;
+  }
 }
 function dois(){
 
