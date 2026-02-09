@@ -1,4 +1,4 @@
-funnction calcular() {
+function calcular() {
   let n1 = Number(document.getElementById("n1").value);
   let n2 = Number(document.getElementById("n2").value);
   let md = document.getElementById("md").value;
