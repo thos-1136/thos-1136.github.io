@@ -32,6 +32,7 @@ function um() {
   else {
     newvalue = "1";
     n1 = n1 + newvalue;
+    document.getElementById("n1").innerText = n1;
   }
 }
 function dois() {
