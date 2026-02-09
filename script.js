@@ -53,3 +53,27 @@ function um() {
     document.getElementById("n2").innerText = n2;
   }
 }
+function dois(){
+
+}
+function tres(){
+
+}
+function quatro(){
+
+}
+function cinco(){
+
+}
+function seis(){
+
+}
+function sete(){
+
+}
+function oito(){
+
+}
+function nove(){
+
+}
