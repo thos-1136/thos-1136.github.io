@@ -21,7 +21,10 @@ function mais() {
 }
 
 function menos() {
+  if (contador != 6767){
   md = "-";
+  document.getElementById("md").innerText = md;
+  }
   contador = 6767;
 }
 
