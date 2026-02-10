@@ -16,7 +16,10 @@ function result() {
 }
 
 function mais() {
+  if (contador != 6767){
   md = "+";
+  document.getElementById("md").innerText = md;
+  }
   contador = 6767;
 }
 
@@ -29,12 +32,18 @@ function menos() {
 }
 
 function div() {
+  if (contador != 6767){
   md = "/";
+  document.getElementById("md").innerText = md;
+  }
   contador = 6767;
 }
 
 function mult() {
+  if (contador != 6767){
   md = "*";
+  document.getElementById("md").innerText = md;
+  }
   contador = 6767;
 }
 
