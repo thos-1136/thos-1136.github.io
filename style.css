@@ -1,23 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Programa Sabará | Inicio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-<body>
+.topo {
+  background-color: #ffffff;
+  padding: 15px 40px;
+}
 
-  <div class="topo">
-    <div class="logos">
-      <img src="programalogo.png" class="logo">
-      <img src="iflogo.png" class="logo">
-    </div>
-  </div>
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 
-  <div class="banner">
-    <h1>Meus Progressos</h1>
-  </div>
+.logo {
+  width: 150px
+  height: auto;
+}
+.banner {
+  background-image: url("verde.png");
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
 
-</body>
-</html>
+.banner h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
