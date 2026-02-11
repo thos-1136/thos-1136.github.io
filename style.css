@@ -25,4 +25,22 @@ body {
 .titulo {
   margin-top: 15px;
 }
+.banner {
+  background-image: url("verde.png");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.banner h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
 
