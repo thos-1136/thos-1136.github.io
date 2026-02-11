@@ -15,9 +15,11 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  height: 60;
+  width: auto;
 }
 .logo {
-  height: 120;
+  height: 60;
   width: auto;
 }
 .titulo {
