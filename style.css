@@ -6,42 +6,20 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-/* TOPO BRANCO */
 .topo {
-  background-color: white;
-  padding: 20px 60px;
+  background-color: #ffffff;
+  color: white;
+  padding: 10px;
 }
-
-/* ORGANIZA LOGOS */
 .logos {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
-
-/* LOGO PROGRAMA */
-.logo-programa {
-  height: 80px;
-  width: auto;
+.logo {
+  height: auto;
+  width: 120px;
 }
-
-/* LOGO IF */
-.logo-if {
-  height: 100px;  /* controla tamanho */
-  width: auto;
+.titulo {
+  margin-top: 15px;
 }
-
-/* BANNER VERDE */
-.banner {
-  background-image: url("verde.png"); /* textura verde */
-  background-size: cover;
-  background-position: center;
-
-  height: 170px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-bot
