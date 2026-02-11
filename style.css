@@ -18,6 +18,7 @@ body {
 }
 .logo {
   height: 120;
+  width: auto;
 }
 .titulo {
   margin-top: 15px;
