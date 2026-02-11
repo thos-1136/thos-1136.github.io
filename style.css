@@ -17,8 +17,7 @@ body {
   gap: 20px;
 }
 .logo {
-  height: auto;
-  width: 120px;
+  height: 120;
 }
 .titulo {
   margin-top: 15px;
