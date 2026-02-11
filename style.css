@@ -7,37 +7,44 @@ body {
   background-attachment: fixed;
 }
 
+/* TOPO BRANCO */
 .topo {
   background-color: #ffffff;
-  padding: 15px 40px;
+  padding: 20px 40px;
 }
 
 .logos {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .logo {
-  width: 150px
+  width: 150px;
   height: auto;
 }
+
+/* FAIXA VERDE */
 .banner {
-  background-image: url("verde.png");
+  background-image: url("verde.png"); /* CONFERE O NOME */
   background-size: cover;
   background-position: center;
-  height: 140px;
+  height: 160px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .banner h1 {
   color: white;
-  font-size: 48px;
+  font-size: 52px;
   margin: 0;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 }
