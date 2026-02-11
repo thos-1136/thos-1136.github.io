@@ -1,19 +1,25 @@
 body {
-  background-color: #111;
-  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
-input {
-  background-color: #222;
+.topo {
+  background-color: #0f8f3e; /* verde principal */
   color: white;
-  border: 1px solid #555;
+  padding: 20px;
 }
 
-button {
-  background-color: #4caf50;
-  color: white;
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-h1 {
-  color: #00e5ff;
+.logo {
+  height: 60px;
+}
+
+.titulo {
+  margin-top: 15px;
 }
