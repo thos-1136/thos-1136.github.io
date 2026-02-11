@@ -2,9 +2,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-image: url("fundo.png");
-  background-size: cover;        /* cobre a tela toda */
-  background-repeat: no-repeat;  /* não repete */
-  background-attachment: fixed;  /* fica fixo ao rolar */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
