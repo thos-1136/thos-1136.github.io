@@ -7,40 +7,53 @@ body {
   background-attachment: fixed;
 }
 .topo {
-  background-color: #ffffff;
+  background-color: transparent;
   color: white;
-  padding: 5px 20px;
+  padding: 0px;
 }
 .logos {
+  background-color: #ffffff;
+  color: white;
   display: flex;
   align-items: center;
   gap: 20px;
-  height: 60px;
+  height: 100px;
   width: auto;
 }
 .logo {
-  height: 60;
+  height: 100px;
   width: auto;
 }
 .titulo {
   margin-top: 15px;
 }
 .banner {
-  background-image: url("text11.jpg");
+  margin: 0;
+  width: 100%;
+  background-color: rgb(8, 102, 0);
   background-size: cover;
   background-position: center;
-  height: 150px;
-
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
 }
 .banner h1 {
   color: white;
   font-size: 48px;
   margin: 0;
 }
-
+.botao1 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(8, 102, 0);
+  font-size: 20px; 
+}
+.botao2 a {
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(8, 102, 0);
+  font-size: 20px;;
+}

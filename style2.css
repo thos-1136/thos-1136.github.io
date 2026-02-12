@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.topo {
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+}
+.logos {
+  background-color: #ffffff;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  width: auto;
+}
+.logo {
+  height: 100px;
+  width: auto;
+}
+.titulo {
+  margin-top: 15px;
+}
+.banner {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(8, 102, 0);
+  background-size: cover;
+  background-position: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+}
+.banner h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
+.botao1 a {
+  text-decoration: none;
+  font-weight: normal;
+  color: rgb(8, 102, 0);
+  font-size: 20px; 
+}
+.botao2 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(8, 102, 0);
+  font-size: 20px;;
+}
